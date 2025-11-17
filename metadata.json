@@ -1,0 +1,5 @@
+{
+  "name": "React Counter",
+  "description": "A simple and beautifully designed React application featuring two buttons to increment and reset a counter, styled with Tailwind CSS.",
+  "requestFramePermissions": []
+}
