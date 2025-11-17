@@ -1,4 +1,4 @@
 // vite.config.js
 export default {
-  base: '/<firastreact>/', // Replace with your repo name
+  base: '/<firstreact>/', // Replace with your repo name
 }
