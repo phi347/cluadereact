@@ -16,7 +16,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Or your preferred Node.js version
+          node-version: '20' # Changed from '18' to '20'
+          cache: 'npm' # Add caching for faster installs
 
       - name: Install dependencies
         run: npm install
@@ -28,5 +29,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # Or wherever your build output is located (e.g., ./build)
-          # cname: example.com # Uncomment and set if you have a custom domain
+          publish_dir: ./dist
