@@ -3,5 +3,5 @@ import { defineConfig } from 'vite'
 
    export default defineConfig({
      plugins: [react()],
-     base: '/cluadreact/', // Replace with your actual repo name
+     base: '/cluadereact/', // Replace with your actual repo name
    })
